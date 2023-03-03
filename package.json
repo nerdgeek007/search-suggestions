@@ -1,0 +1,17 @@
+{
+  "name": "cities-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bundler": "^0.8.0",
+    "cities.json": "^1.1.18",
+    "parcel": "^2.8.3"
+  }
+}

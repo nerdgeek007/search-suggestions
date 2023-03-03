@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  background: #ffc600;
+  font-family: helvetica neue;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+}
+
+.search-form {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+input.search {
+  text-align: center;
+  width: 120%;
+  z-index: 2;
+  border: 10px solid #f7f7f7;
+  border-radius: 5px;
+  outline: 0;
+  margin: 0;
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  left: -10%;
+  box-shadow: 0 0 5px #0000001f, inset 0 0 2px #00000030;
+}
+
+.suggestions {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.suggestions li {
+  text-transform: lowercase;
+  background: #fff;
+  border-bottom: 1px solid #d8d8d8;
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+  transition: background .2s;
+  display: flex;
+  box-shadow: 0 0 10px #00000024;
+}
+
+.suggestions li:nth-child(2n) {
+  background: linear-gradient(#fff 0%, #efefef 100%);
+  transform: perspective(100px)rotateX(3deg)translateY(2px)scale(1.001);
+}
+
+.suggestions li:nth-child(2n+1) {
+  background: linear-gradient(to top, #fff 0%, #efefef 100%);
+  transform: perspective(100px)rotateX(-3deg)translateY(3px);
+}
+
+span.population {
+  font-size: 15px;
+}
+
+.hl {
+  background: #ffc600;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
